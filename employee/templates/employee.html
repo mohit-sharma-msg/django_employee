@@ -1,0 +1,41 @@
+
+{% load static %}
+
+{% block body %}
+
+{%include 'navigation.html'%}
+
+
+   <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.25/js/dataTables.bootstrap4.min.js"></script>
+
+
+<style>
+    p {color:blue; text left-align ;font-size:20px; }
+    h1 {color:blue; font-size:40px; text-align:;}
+    div {color:blue; text-align:center;}
+    button{background-color:blue; font-size:40px}
+
+</style>
+
+<body>
+<div class="container-fliud">
+    <img src="{% static '/image/1.png' %}" style="height:250px;width:100%">
+    <p></p>
+<div class="container-fliud mt-5 ">
+    <h1 >Employee Record Management System</h1>
+</div>
+    <div class="container-fliud mt-3 "></div>
+     <div>
+</body>
+
+
+{% endblock %}
